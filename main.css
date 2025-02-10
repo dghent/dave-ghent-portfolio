@@ -111,6 +111,11 @@ a:hover {
   color: white;
 }
 
+img {
+  display: block;
+  margin: 0 auto;
+}
+
 body {
   margin: 80px 80px 80px 80px;
 }
@@ -156,23 +161,21 @@ body {
   clear: both;
 }
 
-.img-border {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #ccc;
-}
-
-#case-study {
+#case-study-block {
+  background-color: white;
   text-align: center;
-}
-
-.case-study-text {
-  text-align: left;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .case-study-text-container {
-  text-align: left;
-  margin: auto;
+    max-width: 940px;
+    text-align: center;
+    margin: auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .bullet-points {
@@ -221,6 +224,9 @@ body {
   p {
     font-size: 21px;
   }
+  .max-width-text {
+    max-width: 600px;
+  }
   .divider {
     padding-bottom: 164px;
   }
@@ -229,14 +235,10 @@ body {
     padding-top: 32px;
     text-align: center;
   }
-  .case-study-text-container {
-    width: 940px;
-/*    padding-left: 124px;*/
-  }
-  #case-study img {
+  #case-study-block img {
     max-width: 1920px;
     text-align: center;
-    width: 100%;
+    width: 80%;
     padding-top: 64px;
     padding-bottom: 64px;
   }
@@ -295,11 +297,6 @@ body {
     padding-bottom: 164px;
   }
   /* Case Study */
-  .case-study-text-container {
-    margin-left: 32px;
-    margin-right: 32px;
-    padding: 32px 0px 32px 0px;
-  }
   #case-study img {
     width: 100%;
     padding-top: 24px;
@@ -353,14 +350,10 @@ body {
     line-height: 37px;
   }
   /* Case Study */
-  .case-study-text {
-    padding-left: 24px;
-    padding-right: 24px;
-  }
   .case-study-text-container {
-    padding: 32px 0px 32px 0px;
+    max-width: 600px;
   }
-  #case-study img {
+  #case-study-block img {
     width: 100%;
   }
 }
@@ -404,14 +397,10 @@ body {
     padding-bottom: 164px;
   }
   /* Case Study */
-  #case-study img {
+  #case-study-block img {
     width: 100%;
     padding-top: 16px;
     padding-bottom: 16px;
-  }
-  .case-study-text {
-    padding-left: 24px;
-    padding-right: 24px;
   }
 }
 
