@@ -178,8 +178,9 @@ body {
     padding-bottom: 32px;
 }
 
-.bullet-points {
-  color: #2E484A;
+.case-study-footer {
+    padding-bottom: 32px;
+    text-align: center;
 }
 
 /** Type Scale: 1.333 Perfect Fourth
@@ -201,14 +202,12 @@ body {
 /*     background-color: green; */
   }
   /* index */
-  #home-margin {
-      margin: 80px 124px 80px 80px;
-  }
   #header-divider {
     margin-bottom: 64px;
   }
   .right {
     width: 50%;
+    padding-left: 32px;
   }
   .right a {
     font-size: 28px;
@@ -308,8 +307,8 @@ body {
 /** Medium Mobile **/
 @media screen and (min-width: 601px) and (max-width: 900px) {
   body {
-    margin: 16px;
-    /* background-color: red; */
+    margin: 24px;
+/*     background-color: red;*/
   }
   /* Index */
   .flex-section { /* To make index page images full width */
@@ -361,15 +360,12 @@ body {
 /** X-Small Mobile **/
 @media screen and (max-width: 600px) {
   body {
-    margin: 16px;
-    /* background-color: purple; */
+    margin: 24px;
+/*    background-color: purple; */
   }
   /* Index */
   .flex-section { /* To make index page images full width */
     flex-direction: column;
-  }
-  #home-margin {
-    margin: 16px;
   }
   #header-divider {
     margin-bottom: 64px;
@@ -383,10 +379,10 @@ body {
   }
   /* All */
   h1 {
-    font-size: 28px;
+    font-size: 37px;
   }
   h2 {
-    font-size: 37px;
+    font-size: 32px;
     margin-top: 16px;
   }
   p {
