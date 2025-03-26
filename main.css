@@ -129,12 +129,12 @@ body {
 }
 
 #header-divider p {
-  border-bottom: 2px white solid;
+  border-bottom: 1px white solid;
 }
 
 .line-divider {
   display: block;
-  border-bottom: 2px white solid;
+  border-bottom: 1px white solid;
 }
 
 .flex-section {
